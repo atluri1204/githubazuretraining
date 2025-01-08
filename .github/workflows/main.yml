@@ -18,7 +18,7 @@ jobs:
       - name: create resource group
         run: |
           #az group create --name "myresourcegroup" --location eastus
-          az appservice plan create --name myappserviceplanrahgav --resource-group "myresourcegroup" --sku F1
+          #az appservice plan create --name myappserviceplanrahgav --resource-group "myresourcegroup" --sku F1
           az webapp create --name mywebapp --resource-group "myresourcegroup" --plan myappserviceplan --location westus --runtime "NODE|18-lts"
  
       
