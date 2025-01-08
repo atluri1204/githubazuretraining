@@ -15,4 +15,7 @@ jobs:
       - name: Login Confirmation
         if: success()
         run: echo "Login pass"
+      - name: create resource group
+        run: |
+          az group create --name "myresourcegroup" --location eastus
       
