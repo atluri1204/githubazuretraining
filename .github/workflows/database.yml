@@ -2,9 +2,9 @@ on:
   push
 
 env:
-  sql_server: mysql12-dataserver
-  database_name: db1
-  resource-group: myresourcegroup5
+  sql_server: mysql1204-dataserver
+  database_name: db1204
+  resource-group: myresourcegroup1204
   location: centralus
   admin-user: harry
   admin-password: ret90@367
